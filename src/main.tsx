@@ -7,7 +7,7 @@ const root = document.getElementById("root");
 if (!root) throw new Error("Root not found");
 
 // DEMO: поменяй на true чтобы увидеть авторизацию
-const SHOW_AUTH = true;
+const SHOW_AUTH = false;
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
